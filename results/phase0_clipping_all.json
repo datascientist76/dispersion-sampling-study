@@ -1,0 +1,168 @@
+{
+  "args": {
+    "n": 80,
+    "sigma": 1.0,
+    "seeds": 200,
+    "clips": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "mode": "all",
+    "out": "results/phase0_clipping_all.json"
+  },
+  "rows": [
+    {
+      "kernel": "exponential",
+      "L": 2,
+      "clipped": 8761019,
+      "total": 75840000,
+      "clip_fraction": 0.11551976529535865,
+      "max_distance": 6.913809852997124,
+      "threshold": 2.0,
+      "can_clip": true
+    },
+    {
+      "kernel": "exponential",
+      "L": 3,
+      "clipped": 1626658,
+      "total": 75840000,
+      "clip_fraction": 0.02144854957805907,
+      "max_distance": 6.913809852997124,
+      "threshold": 3.0,
+      "can_clip": true
+    },
+    {
+      "kernel": "exponential",
+      "L": 4,
+      "clipped": 179667,
+      "total": 75840000,
+      "clip_fraction": 0.002369026898734177,
+      "max_distance": 6.913809852997124,
+      "threshold": 4.0,
+      "can_clip": true
+    },
+    {
+      "kernel": "exponential",
+      "L": 5,
+      "clipped": 12062,
+      "total": 75840000,
+      "clip_fraction": 0.00015904535864978903,
+      "max_distance": 6.913809852997124,
+      "threshold": 5.0,
+      "can_clip": true
+    },
+    {
+      "kernel": "exponential",
+      "L": 6,
+      "clipped": 563,
+      "total": 75840000,
+      "clip_fraction": 7.423523206751055e-06,
+      "max_distance": 6.913809852997124,
+      "threshold": 6.0,
+      "can_clip": true
+    },
+    {
+      "kernel": "gaussian",
+      "L": 2,
+      "clipped": 21919923,
+      "total": 75840000,
+      "clip_fraction": 0.28902852056962025,
+      "max_distance": 6.913809852997124,
+      "threshold": 1.4142135623730951,
+      "can_clip": true
+    },
+    {
+      "kernel": "gaussian",
+      "L": 3,
+      "clipped": 15108894,
+      "total": 75840000,
+      "clip_fraction": 0.19922064873417722,
+      "max_distance": 6.913809852997124,
+      "threshold": 1.7320508075688772,
+      "can_clip": true
+    },
+    {
+      "kernel": "gaussian",
+      "L": 4,
+      "clipped": 10650667,
+      "total": 75840000,
+      "clip_fraction": 0.14043601002109704,
+      "max_distance": 6.913809852997124,
+      "threshold": 2.0,
+      "can_clip": true
+    },
+    {
+      "kernel": "gaussian",
+      "L": 5,
+      "clipped": 7620661,
+      "total": 75840000,
+      "clip_fraction": 0.10048339926160338,
+      "max_distance": 6.913809852997124,
+      "threshold": 2.23606797749979,
+      "can_clip": true
+    },
+    {
+      "kernel": "gaussian",
+      "L": 6,
+      "clipped": 5513405,
+      "total": 75840000,
+      "clip_fraction": 0.07269785073839663,
+      "max_distance": 6.913809852997124,
+      "threshold": 2.449489742783178,
+      "can_clip": true
+    },
+    {
+      "kernel": "inverse",
+      "L": 2,
+      "clipped": 55,
+      "total": 75840000,
+      "clip_fraction": 7.25210970464135e-07,
+      "max_distance": 6.913809852997124,
+      "threshold": 6.38905609893065,
+      "can_clip": true
+    },
+    {
+      "kernel": "inverse",
+      "L": 3,
+      "clipped": 0,
+      "total": 75840000,
+      "clip_fraction": 0.0,
+      "max_distance": 6.913809852997124,
+      "threshold": 19.085536923187668,
+      "can_clip": false
+    },
+    {
+      "kernel": "inverse",
+      "L": 4,
+      "clipped": 0,
+      "total": 75840000,
+      "clip_fraction": 0.0,
+      "max_distance": 6.913809852997124,
+      "threshold": 53.598150033144236,
+      "can_clip": false
+    },
+    {
+      "kernel": "inverse",
+      "L": 5,
+      "clipped": 0,
+      "total": 75840000,
+      "clip_fraction": 0.0,
+      "max_distance": 6.913809852997124,
+      "threshold": 147.4131591025766,
+      "can_clip": false
+    },
+    {
+      "kernel": "inverse",
+      "L": 6,
+      "clipped": 0,
+      "total": 75840000,
+      "clip_fraction": 0.0,
+      "max_distance": 6.913809852997124,
+      "threshold": 402.4287934927351,
+      "can_clip": false
+    }
+  ]
+}
